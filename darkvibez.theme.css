@@ -2,10 +2,12 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 1.3
+ * @version 1.3.1
  * @description A very dark theme for Discord which makes everything look more modern and cozy. Do not use with Light Mode! 
  * @source https://github.com/ProjectShadowSRC/DarkVibez
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
     /* Config */
@@ -21,7 +23,7 @@
     --attachment-bg-code: #000000; /* The background of a code/text attachment */
     --attachment-radius: 12px; /* Border-Radius for the attachments */
     --color-scheme: #5865f2; /* Color scheme used for some buttons and other things | Standard: #5865f2*/
-    --font-display: var(--font-primary); /* Replace main Font | Standard: var(--font-primary) */
+    --font-primary: 'Heebo', sans-serif !important; /* Replace main Font | Standard: var(--font-primary) */
     --btn-hovered: #30303099; /* Background used for most buttons in hover mode */
     --btn-selected: #3e3e3e99; /* Background used for most buttons in selected mode */
 
@@ -743,10 +745,6 @@
 
 .animatedContainer-2laTjx, .bannerImage-ubW8K- {
   border-radius: 10px;
-}
-
-.root-g14mjS {
-  border-radius: 20px !important;
 }
 
 .root-2s1-ri.withHeader-1pNqnP>:first-child {
@@ -1840,7 +1838,13 @@
   background: #b87d00;
 }
 
+
+
 /*Buttons*/
+
+.item-1OdjEX {
+  border-radius: 6px;
+}
 
 .offline-22aM7E:hover {
   background: var(--btn-hovered);
