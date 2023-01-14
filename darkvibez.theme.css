@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 1.4
+ * @version 1.4.1
  * @description A very dark theme for Discord which makes everything look more modern and cozy. Do not use with Light Mode! 
  * @source https://github.com/ProjectShadowSRC/DarkVibez
 */
@@ -538,6 +538,8 @@
 .avatar-3mTjvZ {
     border: 7px solid #525252;
     background-color: #525252;
+    left: 15px !important;
+    top: 75px !important;
 }
 
 .scroller-35tvpe {
@@ -1982,7 +1984,28 @@
   border: 2px solid #6b6b6b;
 }
 
+.gameNameInput-2wbDJ9:hover {
+  background: #ffffff10 !important;
+}
+
+.hoverRoll-2XwpoF {
+  color: #7c7c7c;
+}
+
+.overlayStatusText-In0YrK {
+  color: #7c7c7c !important;
+}
+
+.game-2f2vPC {
+  box-shadow: none !important;
+  border-bottom: 1px solid #4e4e4e;
+}
+
 /*Buttons*/
+
+.background-Gjdjzm {
+  border-radius: 9px;
+}
 
 .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG {
   border-radius: 0px !important;
