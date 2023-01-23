@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 1.4.1
+ * @version 1.4.2
  * @description A very dark theme for Discord which makes everything look more modern and cozy. Do not use with Light Mode! 
  * @source https://github.com/ProjectShadowSRC/DarkVibez
 */
@@ -1999,6 +1999,10 @@
 .game-2f2vPC {
   box-shadow: none !important;
   border-bottom: 1px solid #4e4e4e;
+}
+
+.botText-1fD6Qk {
+  margin-top: 2px !important;
 }
 
 /*Buttons*/
