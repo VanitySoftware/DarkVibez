@@ -2,22 +2,22 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 1.4.2
- * @description A very dark theme for Discord which makes everything look more modern and cozy. Do not use with Light Mode! 
+ * @version 1.5
+ * @description A very dark theme for Discord which makes everything look more modern and cozy. Do not use with Light Mode! **INSIDER-PREVIEW FOR TESTING ONLY!**
  * @source https://github.com/ProjectShadowSRC/DarkVibez
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    /* Config */
+    /* Config (Default) */
     --background-1: #0d0d0d; /* Background used for sidebar-like things | Default: #0d0d0d; */
     --background-2: linear-gradient(to top right, #161616, #252525); /* Background used for chats, friend list etc. */
     --background-3: #252525; /* Background used for things like the search bar and the second area of a vcs usercount */
     --bg-usercount: #3b3b3b; /* Background used for the first part of a vcs usercount */
     --bg-typebox: #282828; /* Background used for the type box below the chat */
-    --bg-card: #00000046; /* Background used for the cards in the Active now area */
-    --bg-hover: #55555546; /* Background used for some small buttons in hover mode */
+    --bg-card: #333333; /* Background used for the cards in the Active now area */
+    --bg-card-2: #212121; /* Background used for the inner cards in the Active now area */
     --topleft-border-radius: 12px !important; /* border-radius, used in the top-left of every page | HAS to be set to !important | Standard: 12px !important;*/
     --attachment-bg-file: linear-gradient(90deg, rgb(0, 71, 179) 0%, rgb(27, 27, 27) 55%, rgb(27, 27, 27) 100%); /* The background of a file attachment */
     --attachment-bg-code: #000000; /* The background of a code/text attachment */
@@ -33,9 +33,11 @@
     --background-tertiary: var(--background-3);
     --background-primary: var(--btn-selected);
     --background-secondary: var(--background-1);
+    --elevation-low: none;
 }
 
 /* Don't touch! These are fixes for some buggy objects */
+.form-3gdLxP:before{ content:unset; }
 .form-3gdLxP:before{ content:unset; }
 .children-3xh0VB:after{ content:unset; }
 
@@ -272,7 +274,11 @@
 
 .form-3gdLxP {
     margin-top: 5.5px !important;
-    background: transparent;
+    background: transparent !important;
+}
+
+.channelTextArea-1FufC0 {
+  background: transparent !important;
 }
 
 .bodyInnerWrapper-2bQs1k {
@@ -288,16 +294,20 @@
 }
 
 .inner-NQg18Y {
-  background: #292929;
+  background: transparent !important;
 }
 
 .scrollableContainer-15eg7h {
-  background: #292929;
+  background: #ffffff00 !important;
   border-radius: 0px !important;
 }
 
+.container-YkUktl {
+  background: transparent !important;
+}
+
 .section-3G9aLW:only-child {
-  background: #212121;
+  background: var(--bg-card-2);
 }
 
 .members-3WRCEx, .members-3WRCEx>div {
@@ -392,22 +402,24 @@
 }
 
 .bd-addon-header {
-  background: rgb(41, 41, 41) !important;
-  border-bottom: 1px solid rgb(68, 68, 68);
+  background: #292929 !important;
+  border-bottom: 1px solid #444444;
   border-radius: 12px 12px 0 0;
 }
 
 .bd-description-wrap {
-  background: rgb(41, 41, 41) !important;
+  background: #292929 !important;
 }
 
 .bd-footer {
-  background: rgb(41, 41, 41) !important;
+  background: #292929 !important;
   border-radius: 0 0 12px 12px;
 }
 
 .bd-addon-list .bd-addon-card {
   background: transparent;
+  border-radius: 12px;
+  border: 1px solid #383838;
 }
 
 .users-2JoyGL {
@@ -567,7 +579,12 @@
   background: var(--background-1);
 }
 
-.text-md-medium-2avxhQ, .text-md-normal-304U3g {
+.text-md-medium-2n7Vn5, .text-md-normal-2rFCH3 {
+  color: #b1b1b1 !important;
+  font-size: 14px;
+}
+
+.h5-2feg8J, .label-7akf7-, .legend-3BgtI3 {
   color: #b1b1b1 !important;
 }
 
@@ -596,7 +613,7 @@
 }
 
 .text-PdAsFQ {
-  color: #cfcfcf;
+  color: #cfcfcf !important;
   font-weight: 400;
 }
 
@@ -617,7 +634,7 @@
   color: #fff;
 }
 
-.text-xs-medium-2LRpEj, .text-xs-normal-3SiVjE {
+.text-xs-medium-311pdh, .text-xs-normal-3O7EaX {
   color: #b1b1b1 !important;
 }
 
@@ -720,7 +737,7 @@
   background: transparent;
 }
 
-.text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv {
+.text-sm-medium-2-Xzsi, .text-sm-normal-AEQz4v {
   color: #b1b1b1 !important;
 }
 
@@ -854,7 +871,7 @@
 }
 
 .inner-2pOSmK {
-  background: #272727;
+  background: var(--background-3) !important;
   border-radius: 6px !important;
 }
 
@@ -917,10 +934,6 @@
 
 .disabled-2QaYSb {
   background: #333333;
-}
-
-.inner-2pOSmK {
-  background: #474747;
 }
 
 .categoryList-2GgCrD {
@@ -1172,11 +1185,13 @@
 .authedApp-8q3NA9 {
   background: #2b2b2b !important;
   border-radius: 12px;
+  border: 1px solid #474747;
 }
 
 .connectContainer-1hylYM {
   background: #383838 !important;
   border-radius: 15px;
+  border: 1px solid #5c5c5c;
 }
 
 .connectionHeader-Ixbb1s {
@@ -1187,6 +1202,7 @@
 .connection-YOVI9j {
   background: #2b2b2b !important;
   border-radius: 15px;
+  border: 1px solid #4e4e4e;
 }
 
 .card-2xlCYc, .cardWrapper-1bSePP {
@@ -1202,6 +1218,15 @@
 .noItemsCard-2V85P5, .noItemsCard-5EOcCl {
   background: #2b2b2b !important;
   border-radius: 12px;
+  border: 1px solid #414141;
+}
+
+.option-Uc12mm.focused-10mbp- {
+  background: #ffffff2f !important;
+}
+
+.option-Uc12mm.focused-10mbp-, .option-Uc12mm:focus, .option-Uc12mm:hover {
+  background: none !important;
 }
 
 .paymentPane-ut5qKZ {
@@ -1274,6 +1299,7 @@
 .theme-dark .notDetected-M3Ghh2, .theme-light .notDetected-M3Ghh2 {
   background: #2b2b2b !important;
   border-radius: 15px;
+  border: 1px solid #3b3b3b;
 }
 
 .addGamePopout-2SKNIV {
@@ -1284,6 +1310,7 @@
 .nowPlaying-3UpuKc {
   background: #213a23 !important;
   border-radius: 15px;
+  border: 1px solid #365e39;
 }
 
 .participantsButton-1WBdFP {
@@ -1422,6 +1449,10 @@
 
 .auto-2K3UW5::-webkit-scrollbar-track {
   background: #33333300 !important;
+}
+
+.popout-15UxD6::-webkit-scrollbar-thumb {
+  background-color: #ffffff1a !important;
 }
 
 .messagesPopoutWrap-3zryHW {
@@ -1676,7 +1707,7 @@
 }
 
 .theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
-  background: #3a3a3a !important;
+  background: var(--bg-card) !important;
   border-radius: 12px;
 }
 
@@ -1691,7 +1722,7 @@
 }
 
 .outer-2JOHae {
-  background: #333333;
+  background: var(--bg-card);
   border-radius: 12px;
   margin-bottom: 15px !important;
 }
@@ -1946,6 +1977,7 @@
 .editCard-K9Q9mb {
   background: #313131;
   border-radius: 16px;
+  border: 1px solid #464646;
 }
 
 .actionContainer-EzNGrb {
@@ -2005,7 +2037,138 @@
   margin-top: 2px !important;
 }
 
+.input-3O04eu {
+  color: #fff !important;
+  background: #4d4d4d;
+  border-radius: 14px !important;
+}
+
+.inputDefault-Ciwd-S .input-3O04eu .inputInner-1Z3Tui {
+  color: #757575 !important;
+}
+
+.infoScroller-3MqKC5 .input-3O04eu {
+  background: transparent !important;
+}
+
+.addFriendInputWrapper-kkoSV9 .input-3O04eu {
+  background: transparent !important;
+}
+
+.headerImage-2osrlm {
+  display: none;
+}
+
+.lookFilled-GPyucw.select-Zz0IcO {
+  background: #3f3f3f !important;
+  border-radius: 14px !important;
+}
+
+.wrapper-mJT04A .icons-2ibyma {
+  margin-top: 3px;
+}
+
+.popout-15UxD6 {
+  margin-top: 10px;
+  background: #3f3f3f !important;
+  border-radius: 9px !important;
+}
+
+.formNotice-1JW4h2 {
+  background: #292929;
+  border: 1px solid #414141;
+  border-radius: 12px;
+}
+
+.friendRequestsButton-77veU7 {
+  background: #525252 !important;
+  border-radius: 9px;
+  margin-right: -4px !important;
+}
+
+.numberBadge-37OJ3S {
+  background: transparent !important;
+}
+
+.container-1A0qQO {
+  background: var(--background-2) !important;
+}
+
+.section-3FmfOT .input-3O04eu {
+  background: transparent !important;
+}
+
+.premiumPromo-1eKAIB {
+  background: #000000be;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+.modal-2TOYtq {
+  background: #222222 !important;
+  border-radius: 0 20px 20px 0;
+}
+
+.content-2hZxGK::-webkit-scrollbar-thumb {
+  background-color: #ffffff27 !important;
+}
+
+.guildSidebar-UHnQqs {
+  border-radius: 20px 0 0 20px;
+}
+
+.fieldBackground-3nYcw0, .fieldBackground-3nYcw0 {
+  background: #303030 !important;
+  border: 1px solid #4b4b4b !important;
+  border-radius: 12px !important;
+}
+
+.termsRow-2I3Fqz {
+  border-bottom: 1px solid #4b4b4b !important;
+}
+
+.container-1zzFcN {
+  background: transparent !important;
+}
+
+.unread-2wipsx {
+  border-radius: 9px !important;
+  background: #5c5b5b;
+}
+
 /*Buttons*/
+
+.role-23oyrw {
+  background: #ffffff25;
+}
+
+.role-23oyrw:hover {
+  background: #ffffff31;
+}
+
+.radioBar-1XgZqD, .itemFilled-2Fo7lr {
+  border-radius: 12px;
+  background: #2e2e2e;
+}
+
+.itemFilled-2Fo7lr {
+  border: 1px solid #474747;
+}
+
+.option-Uc12mm {
+  border-radius: 9px !important;
+  margin-bottom: 4px;
+}
+
+.option-Uc12mm:hover {
+  border-radius: 9px !important;
+  background: #4b4b4b !important;
+}
+
+.option-Uc12mm[aria-selected=true] {
+  border-radius: 9px !important;
+  background: #555555 !important;
+}
 
 .background-Gjdjzm {
   border-radius: 9px;
@@ -2208,11 +2371,13 @@
 .container-3EtAkD {
   border-radius: 12px;
   background: #292929;
+  border: 1px solid #3f3f3f;
 }
 
 .container-3EtAkD:hover {
   border-radius: 12px;
   background: #353535;
+  border: 1px solid #4b4b4b;
 }
 
 .itemFilled-1cPbtg[aria-checked=true] {
@@ -2240,23 +2405,23 @@
   background: #575757;
 }
 
-.checked-25WXMf {
+.checked-16gMAN {
   background: #72ff14 !important;
 }
 
-.checked-25WXMf .slider-32CRPX {
-  background: #fff;
-  width: 60%;
-  height: 100%;
-  border-radius: 50%;
-  margin-top: 0.1%;
+.slider-HJFN2i {
+  background: #ffffff !important;
+  width: 60% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  margin-top: 0.1% !important;
 }
 
-.slider-32CRPX svg {
+.slider-HJFN2i svg {
   display: none;
 }
 
-.slider-32CRPX {
+.input-125oad {
   background: #fff;
   width: 60%;
   height: 100%;
@@ -2301,7 +2466,7 @@
 }
 
 .button-3bklZh:hover {
-  background: var(--bg-hover);
+  background: var(--btn-hovered);
 }
 
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
@@ -2402,7 +2567,7 @@
   border-bottom-right-radius: var(--attachment-radius);
 }
 
-.formattedSize-1YbZww {
+.formattedSize-1YbZww {bA
   color: rgb(255, 255, 255);
 }
 
@@ -2417,7 +2582,7 @@
 }
 
 .scroller-3X7KbA {
-  background: var(--background-1);
+  background: var(--background-1) !important;
   color: #000000;
 }
 
