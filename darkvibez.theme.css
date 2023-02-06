@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 1.5
+ * @version 1.5.1 (Insider-Preview 01)
  * @description A very dark theme for Discord which makes everything look more modern and cozy. Do not use with Light Mode!
  * @source https://github.com/ProjectShadowSRC/DarkVibez
 */
@@ -10,30 +10,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    /* Config (Default) */
-    --background-1: #0d0d0d; /* Background used for sidebar-like things | Default: #0d0d0d; */
-    --background-2: linear-gradient(to top right, #161616, #252525); /* Background used for chats, friend list etc. */
-    --background-3: #252525; /* Background used for things like the search bar and the second area of a vcs usercount */
-    --bg-usercount: #3b3b3b; /* Background used for the first part of a vcs usercount */
-    --bg-typebox: #282828; /* Background used for the type box below the chat */
-    --bg-card: #333333; /* Background used for the cards in the Active now area */
-    --bg-card-2: #212121; /* Background used for the inner cards in the Active now area */
-    --topleft-border-radius: 12px !important; /* border-radius, used in the top-left of every page | HAS to be set to !important | Standard: 12px !important;*/
-    --attachment-bg-file: linear-gradient(90deg, rgb(0, 71, 179) 0%, rgb(27, 27, 27) 55%, rgb(27, 27, 27) 100%); /* The background of a file attachment */
-    --attachment-bg-code: #000000; /* The background of a code/text attachment */
-    --attachment-radius: 12px; /* Border-Radius for the attachments */
-    --color-scheme: #5865f2; /* Color scheme used for some buttons and other things | Standard: #5865f2*/
-    --font-primary: 'Heebo', sans-serif !important; /* Replace main Font | Standard: var(--font-primary) */
-    --btn-hovered: #30303099; /* Background used for most buttons in hover mode */
-    --btn-selected: #3e3e3e99; /* Background used for most buttons in selected mode */
+   /* Config (Default) */
+   --background-1: #0d0d0d; /* Background used for sidebar-like things | Default: #0d0d0d; */
+   --background-2: linear-gradient(to top right, #161616, #252525); /* Background used for chats, friend list etc. */
+   --background-3: #252525; /* Background used for things like the search bar and the second area of a vcs usercount */
+   --bg-usercount: #3b3b3b; /* Background used for the first part of a vcs usercount */
+   --bg-typebox: #282828; /* Background used for the type box below the chat */
+   --bg-card: #333333; /* Background used for the cards in the Active now area */
+   --bg-card-2: #212121; /* Background used for the inner cards in the Active now area */
+   --topleft-border-radius: 12px !important; /* border-radius, used in the top-left of every page | HAS to be set to !important | Standard: 12px !important;*/
+   --attachment-bg-file: linear-gradient(90deg, rgb(0, 71, 179) 0%, rgb(27, 27, 27) 55%, rgb(27, 27, 27) 100%); /* The background of a file attachment */
+   --attachment-bg-code: #000000; /* The background of a code/text attachment */
+   --attachment-radius: 12px; /* Border-Radius for the attachments */
+   --color-scheme: #5865f2; /* Color scheme used for some buttons and other things | Standard: #5865f2*/
+   --font-primary: 'Heebo', sans-serif !important; /* Replace main Font | Standard: var(--font-primary) */
+   --btn-hovered: #30303099; /* Background used for most buttons in hover mode */
+   --btn-selected: #3e3e3e99; /* Background used for most buttons in selected mode */
 
-    /* Don't touch */
-    --font-display: var(--font-primary);
-    --font-headline: var(--font-primary);
-    --background-tertiary: var(--background-3);
-    --background-primary: var(--btn-selected);
-    --background-secondary: var(--background-1);
-    --elevation-low: none;
+  /* Don't touch */
+  --font-display: var(--font-primary);
+  --font-headline: var(--font-primary);
+  --background-tertiary: var(--background-3);
+  --background-primary: var(--btn-selected);
+  --background-secondary: var(--background-1);
+  --elevation-low: none;
 }
 
 /* Don't touch! These are fixes for some buggy objects */
@@ -1392,7 +1392,7 @@
 
 .wrapper-1HIH0j {
   border-radius: 12px;
-  background: #383838;
+  background: #2e2e2e !important;
 }
 
 .messagesWrapper-RpOMA3 {
@@ -2135,6 +2135,47 @@
   border-radius: 9px !important;
   background: #5c5b5b;
 }
+
+.banner-ppi-o1 {
+  border-radius: 20px 20px 0 0;
+}
+
+.contentContainer-BWAau5, .container-3EBHNg {
+  background: #1a1a1a !important;
+  border-radius: none !important;
+  border: none;
+}
+
+.content-2hZxGK {
+  border-radius: 0 0 0 0 !important;
+}
+
+.banner-3YSe_P {
+  border-radius: 12px 12px 0 0;
+}
+
+.card-8UsK4b {
+  background: #2c2c2c !important;
+  border: 1px solid #535353;
+  border-radius: 16px;
+}
+
+.header-1sd0RU {
+  border-radius: 20px 20px 0 0;
+}
+
+.listRow-3v94Wr {
+  border-radius: 9px;
+}
+
+.listRow-3v94Wr:hover {
+  background: #ffffff1f;
+}
+
+.listRow-3v94Wr.selected-2aBVty {
+  background: #ffffff31;
+}
+
 
 /*Buttons*/
 
