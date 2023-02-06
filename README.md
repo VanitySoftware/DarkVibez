@@ -11,7 +11,7 @@ DarkVibez is not meant to be used with Light mode! Doing so WILL cause visual pr
 
 # Preview
 
-Default
+Classic (Default)
 ![image](https://user-images.githubusercontent.com/115824997/217005603-0b54f9e2-a61e-48a2-a02b-85a5f787a9a1.png)
 
 Oceanized (Config-Preset)
