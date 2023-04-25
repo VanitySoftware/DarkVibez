@@ -1,0 +1,27 @@
+"Rainforest" by ProjectShadow (v1.0)
+For DarkVibez v1.7 and higher (can change anytime)
+
+
+HOW TO APPLY:
+1. Open darkvibez.theme.css from your themes folder
+2. Replace your existing Config with this one
+
+   /* Config ("Rainforest v1.0" by ProjectShadow) */
+   --background-1: #1e3117; /* Background used for sidebar-like things | Default: #0d0d0d; */
+   --background-2: linear-gradient(to top right, #081d03, #4a7c2c); /* Background used for chats, friend list etc. | Default: linear-gradient(to top right, #161616, #252525); */
+   --background-3: #195709; /* Background used for things like the search bar and the second area of a vcs usercount */
+   --bg-usercount: #19410f; /* Background used for the first part of a vcs usercount */
+   --bg-typebox: #0d380f; /* Background used for the type box below the chat */
+   --bg-card: #36742e; /* Background used for the cards in the Active now area */
+   --bg-card-2: #1e5225; /* Background used for the inner cards in the Active now area */
+   --topleft-border-radius: 12px !important; /* border-radius, used in the top-left of every page | HAS to be set to !important | Standard: 12px !important;*/
+   --attachment-bg-file: linear-gradient(90deg, rgb(0, 71, 179) 0%, rgb(27, 27, 27) 55%, rgb(27, 27, 27) 100%); /* The background of a file attachment */
+   --attachment-bg-code: #000000; /* The background of a code/text attachment */
+   --attachment-radius: 12px; /* Border-Radius for the attachments */
+   --color-scheme: #3e8821; /* Color scheme used for some buttons and other things | Standard: #5865f2*/
+   --font-primary: 'Heebo', sans-serif !important; /* Replace main Font | Standard: 'Heebo', sans-serif !important; */
+   --btn-hovered: #064400; /* Background used for most buttons in hover mode */
+   --btn-selected: #116400; /* Background used for most buttons in selected mode */
+   --defaultProfileBG1: #00a028; /* Upper background for non-Nitro profiles | Default: #3b3b3b; */
+   --defaultProfileBG2: #00461b; /* Lower background for non-Nitro profiles | Default: #1d1d1d; */
+   --number-badge-bg: linear-gradient(to top right, #086e08, #4dff35); /* Background for number badges | Default: linear-gradient(to top right, #3b3b3b, #777777); */
