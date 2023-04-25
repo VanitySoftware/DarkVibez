@@ -13,7 +13,7 @@ Using DarkVibez with macOS causes 1 little issue, which is not that noticable.
 DarkVibez is not meant to be used with Light mode! Doing so WILL cause visual problems.
 
 # About Discord Nitro themes
-DarkVibez blocks the selection of these Nitro themes. If you have one enabled, disable it.
+DarkVibez blocks the selection of these Nitro themes. If you have one enabled, switch back to default Dark mode.
 
 # Preview
 
