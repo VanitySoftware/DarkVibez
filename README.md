@@ -6,8 +6,14 @@ A dark and modern theme for BetterDiscord. Simply add it to your Themes folder a
 # About Discord Web-App
 DarkVibez also works fine with the Discord Web-App if you use an Extension which supports Custom-CSS for specific websites.
 
+# About macOS
+Using DarkVibez with macOS causes 1 little issue, which is not that noticable.
+
 # About Light mode
 DarkVibez is not meant to be used with Light mode! Doing so WILL cause visual problems.
+
+# About Discord Nitro themes
+DarkVibez blocks the selection of these Nitro themes. If you have one enabled, disable it.
 
 # Preview
 
