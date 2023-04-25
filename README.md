@@ -12,10 +12,16 @@ DarkVibez is not meant to be used with Light mode! Doing so WILL cause visual pr
 # Preview
 
 Default
-![image](https://user-images.githubusercontent.com/115824997/217005603-0b54f9e2-a61e-48a2-a02b-85a5f787a9a1.png)
+![image](https://cdn.discordapp.com/attachments/1032375353949311048/1100412503818780812/image.png)
 
 Oceanized (Config-Preset)
-![image](https://user-images.githubusercontent.com/115824997/217005808-105628b1-f02f-4449-a569-2c77c3b91ae5.png)
+![image](https://cdn.discordapp.com/attachments/1032375353949311048/1100412394213224490/image.png)
 
 PurpleRose (Config-Preset)
-![image](https://user-images.githubusercontent.com/115824997/217005923-ea38c595-9ec2-4e86-98f0-7ceac860d2ee.png)
+![image](https://cdn.discordapp.com/attachments/1032375353949311048/1100412285136150688/image.png)
+
+RedDevil (Config-Preset)
+![image](https://cdn.discordapp.com/attachments/1032375353949311048/1100412187375308810/image.png)
+
+Rainforest (Config-Preset)
+![image](https://cdn.discordapp.com/attachments/1032375353949311048/1100412052348076143/image.png)
