@@ -1,0 +1,27 @@
+"PurpleRose" by ProjectShadow (v1.1.1)
+For DarkVibez v1.7 and higher (can change anytime)
+
+
+HOW TO APPLY:
+1. Open darkvibez.theme.css from your themes folder
+2. Replace your existing Config with this one
+
+  /* Config ("PurpleRose v1.1.1" by ProjectShadow) */
+  --background-1: #160a24; /* Background used for sidebar-like things*/
+  --background-2: linear-gradient(to top right, #0f0038, #4d0d72); /* Background used for chats, friend list etc. */
+  --background-3: #270053; /* Background used for things like the search bar and the second area of a vcs usercount */
+  --bg-usercount: #420079; /* Background used for the first part of a vcs usercount */
+  --bg-typebox: #3a1366; /* Background used for the type box below the chat */
+  --bg-card: #41008b; /* Background used for the cards in the Active now area */
+  --bg-card-2: #300068; /* Background used for the inner cards in the Active now area */
+  --topleft-border-radius: 12px !important; /* border-radius, used in the top-left of every page | HAS to be set to !important*/
+  --attachment-bg-file: linear-gradient(90deg, #7a00b3 0%, #1b1b1b 55%, #1b1b1b 100%); /* The background of a file attachment */
+  --attachment-bg-code: #000000; /* The background of a code/text attachment */
+  --attachment-radius: 12px; /* Border-Radius for the attachments */
+  --color-scheme: #410ea1; /* Color scheme used for some buttons and other things*/
+   --font-primary: 'Heebo', sans-serif !important; /* Replace main Font | Standard: 'Heebo', sans-serif !important; */
+  --btn-hovered: #311358; /* Background used for most buttons in hover mode */
+  --btn-selected: #3a046d; /* Background used for most buttons in selected mode */
+  --defaultProfileBG1: #7525c0; /* Upper background for non-Nitro profiles */
+  --defaultProfileBG2: #200049; /* Lower background for non-Nitro profiles */
+  --number-badge-bg: linear-gradient(to top right, #4a2179, #ba71ff); /* Background for number badges */
