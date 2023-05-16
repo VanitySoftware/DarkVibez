@@ -3399,9 +3399,13 @@ canvas.decorationsOverviewRuler {
   display: none !important;
 }
 
-.outerContainer-2qLQSo, .container-ZMc96U.themed-Hp1KC_ {
-  background: #000000;
-  border-top-left-radius: var(--topleft-border-radius);
+.scroller-3y59C7 {
+  background: #000000 !important;
+  border-top-left-radius: var(--topleft-border-radius) !important;
+}
+
+.outerContainer-2qLQSo {
+  background: var(--background-1) !important;
 }
 
 /*Buttons*/
