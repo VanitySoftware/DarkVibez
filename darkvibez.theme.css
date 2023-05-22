@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 1.7.3
+ * @version 1.7.4
  * @description A dark theme for Discord which makes everything look more modern and cozy.
  * @source https://github.com/ProjectShadowSRC/DarkVibez
  * @website https://twitter.com/ProjectShadowDE
@@ -38,7 +38,7 @@
   --background-primary: var(--btn-selected);
   --background-secondary: var(--background-1);
   --elevation-low: none;
-  --buildinfo: "ProjectShadow/DarkVibez 1.7.3";
+  --buildinfo: "ProjectShadow/DarkVibez 1.7.4";
 }
 
 /* Don't touch! These are fixes for some buggy objects */
@@ -3406,6 +3406,42 @@ canvas.decorationsOverviewRuler {
 
 .outerContainer-2qLQSo {
   background: var(--background-1) !important;
+}
+
+.scroller-3y59C7::-webkit-scrollbar-thumb {
+  background-color: #ffffff25;
+}
+
+.birthdayExplanationWrapper-c5wg5T {
+  background: #ffffff20;
+}
+
+.splashImage-1pkOH3 {
+  border-radius: 12px !important;
+}
+
+.footer-3vSvuV {
+  border-radius: 12px !important;
+  background: #202020;
+}
+
+.emojiHeader-VEVmhr {
+  color: #ffffff90 !important;
+}
+
+.emojiCounter-B8EJjb {
+  background: #ffffff10;
+  border-radius: 9px;
+  color: #ffffff70 !important;
+}
+
+.guildPopout-1PxOP0 {
+  background: #202020 !important;
+  border-radius: 12px !important;
+}
+
+.iconMask-3ZaTTN {
+  background: #202020 !important;
 }
 
 /*Buttons*/
