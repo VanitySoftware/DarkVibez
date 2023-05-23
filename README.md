@@ -1,5 +1,5 @@
-# DarkVibez for BetterDiscord
-A dark and modern theme for BetterDiscord. Simply add it to your Themes folder and activate it in your BetterDiscord settings. Make sure you have Dark mode active.
+# DarkVibez for BetterDiscord and Vencord
+A dark and modern theme for BetterDiscord and Vencord. Simply add it to your Themes folder and activate it in your BetterDiscord settings. Make sure you have Dark mode active. In Vencord, paste the Raw link of darkvibez.theme.css into your theme settings.
 
 ![dv-small](https://user-images.githubusercontent.com/84387545/186991372-f55b08da-2293-4e84-9881-6c3c50b5a2af.png)
 
