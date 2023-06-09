@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 1.8
+ * @version 1.8.1
  * @description A dark theme for Discord which makes everything look more modern and cozy.
  * @source https://github.com/ProjectShadowSRC/DarkVibez
  * @website https://twitter.com/ProjectShadowDE
@@ -38,7 +38,7 @@
   --background-primary: var(--btn-selected);
   --background-secondary: var(--background-1);
   --elevation-low: none;
-  --buildinfo: "ProjectShadow/DarkVibez 1.8";
+  --buildinfo: "ProjectShadow/DarkVibez 1.8.1";
 }
 
 /* Don't touch! These are fixes for some buggy objects */
@@ -150,6 +150,10 @@
 
 .featureBorder-2Jl8g4 {
   border-radius: 12px;
+}
+
+.premiumFeatureBorder-1i95si {
+  display: none;
 }
 
 /*Music-Stuff*/
@@ -2282,7 +2286,7 @@
 }
 
 .banner-ppi-o1 {
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0 !important;
 }
 
 .contentContainer-BWAau5, .container-3EBHNg {
@@ -3154,7 +3158,7 @@
 }
 
 .container-1BRLje {
-  border-radius: 16px 16px 0 0 !important;
+  border-radius: 12px;
 }
 
 .rsvpCount-iCkObl {
@@ -3470,6 +3474,64 @@ canvas.decorationsOverviewRuler {
 
 .vc-m-bottom-16 {
   color: #fff !important;
+}
+
+.body-1HULZ8 {
+  background: none !important;
+}
+
+.body-1HULZ8::-webkit-scrollbar-thumb {
+  background: none !important;
+}
+
+.root-cw9rWQ {
+  border-radius: 12px !important;
+}
+
+.option-1O-Hwt {
+  border-color: #ffffff15;
+  background: #ffffff22;
+  transition: ease-in-out 0.1s;
+}
+
+.option-1O-Hwt:hover {
+  background: #ffffff32;
+  transition: ease-in-out 0.1s;
+}
+
+.verifyConnectedAccount-3EQU9K .message-1eGzHc.details-hPBHAD {
+  color: #ffffff15 !important;
+}
+
+.happeningNowJoin-38S9z- {
+  background: #ffffff20;
+  border-radius: 500px !important;
+}
+
+.scroller-B4-bwK {
+  background: var(--background-2);
+  border-top-left-radius: var(--topleft-border-radius) !important;
+}
+
+.outerContainer-3t7lrW {
+  background: var(--background-1);
+}
+
+.headerImage-3rR8Tr, .headerImageOverlay-4X1YEx {
+  border-radius: 15px !important;
+}
+
+.activityDetailsContainer-2xgfpn, .launcherInnerContainer-1yaOMQ {
+  background: var(--background-2);
+  border-radius: 15px !important;
+}
+
+.activityImage-21gMrZ {
+  border-radius: 12px !important;
+}
+
+.scroller-B4-bwK::-webkit-scrollbar-thumb {
+  background-color: #ffffff10;
 }
 
 /*Buttons*/
