@@ -4,7 +4,7 @@ A dark and modern theme for BetterDiscord and Vencord. Simply add it to your The
 ![dv-small](https://user-images.githubusercontent.com/84387545/186991372-f55b08da-2293-4e84-9881-6c3c50b5a2af.png)
 
 # For Vencord users
-Sadly, Vencord users can't configure DarkVibez as Vencord gets the theme directly from GitHub. If you want to configure DarkVibez, think about switching to BetterDiscord.
+Sadly, Vencord users can't configure DarkVibez as Vencord gets the theme directly from GitHub. If you want to configure DarkVibez, think about switching to BetterDiscord. Alternatively, you can paste DarkVibez into QuickCSS.
 
 # About Discord Web-App
 DarkVibez also works fine with the Discord Web-App if you use an Extension which supports Custom-CSS for specific websites.
