@@ -2382,7 +2382,7 @@
 
 .root-1CAIjD {
   border-radius: 20px;
-  background: linear-gradient(to top right, #1a1a1a, #2e2e2e);
+  background: linear-gradient(to top right, #1a1a1a, #2e2e2e) !important;
   box-shadow: none !important;
   border: 1px solid #363636;
 }
@@ -2680,10 +2680,9 @@
 
 .quickswitcher-pKcM9U {
   border-radius: 20px;
-  border: 1px solid #4e4e4e;
+  border: 1px solid #4e4e4e00;
   box-shadow: none;
-  background: #333333;
-  transform: scale(1.01);
+  background: #33333300;
 }
 
 .scroller-2qwVWY::-webkit-scrollbar-track {
