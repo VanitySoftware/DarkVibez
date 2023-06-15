@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 1.8.2
+ * @version 1.8.3
  * @description A dark theme for Discord which makes everything look more modern and cozy.
  * @source https://github.com/ProjectShadowSRC/DarkVibez
  * @website https://twitter.com/ProjectShadowDE
@@ -3531,6 +3531,10 @@ canvas.decorationsOverviewRuler {
 
 .scroller-B4-bwK::-webkit-scrollbar-thumb {
   background-color: #ffffff10;
+}
+
+.pronouns-17_QV6, .pronouns-RGQpyK {
+  display: none !important;
 }
 
 /*Buttons*/
